@@ -1,0 +1,48 @@
+# ===========================================
+# FPGA ISP Tuner - .gitignore
+# ===========================================
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+build/
+dist/
+*.egg-info/
+*.egg
+venv/
+ENV/
+.venv/
+env/
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+
+# ---- IDEs ----
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# ---- GUI Framework ----
+*.spec          # PyInstaller spec (if committed)
+
+# ---- OS: macOS ----
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+Icon?
+
+# ---- OS: Windows ----
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# ---- Project Specific ----
+*.log
+*.tmp
+test_export.json
+simulation_test.json

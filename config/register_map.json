@@ -1,0 +1,78 @@
+{
+  "version": "1.0",
+  "description": "FPGA ISP Register Address Mapping",
+  "registers": [
+    {
+      "name": "BLC",
+      "address": 0,
+      "description": "Black Level Correction - 黑电平校正",
+      "data_type": "uint8",
+      "min_value": 0,
+      "max_value": 255,
+      "default_value": 16
+    },
+    {
+      "name": "AWB_R_Gain",
+      "address": 16,
+      "description": "AWB Red Channel Gain - 自动白平衡红色增益",
+      "data_type": "float16",
+      "min_value": 0.0,
+      "max_value": 4.0,
+      "default_value": 1.0
+    },
+    {
+      "name": "AWB_G_Gain",
+      "address": 17,
+      "description": "AWB Green Channel Gain - 自动白平衡绿色增益",
+      "data_type": "float16",
+      "min_value": 0.0,
+      "max_value": 4.0,
+      "default_value": 1.0
+    },
+    {
+      "name": "AWB_B_Gain",
+      "address": 18,
+      "description": "AWB Blue Channel Gain - 自动白平衡蓝色增益",
+      "data_type": "float16",
+      "min_value": 0.0,
+      "max_value": 4.0,
+      "default_value": 1.0
+    },
+    {
+      "name": "Gamma",
+      "address": 32,
+      "description": "Gamma Correction Value - Gamma 校正值",
+      "data_type": "float16",
+      "min_value": 0.1,
+      "max_value": 4.0,
+      "default_value": 2.2
+    },
+    {
+      "name": "Contrast",
+      "address": 48,
+      "description": "Contrast - 对比度",
+      "data_type": "uint8",
+      "min_value": 0,
+      "max_value": 255,
+      "default_value": 128
+    },
+    {
+      "name": "Saturation",
+      "address": 49,
+      "description": "Saturation - 饱和度",
+      "data_type": "uint8",
+      "min_value": 0,
+      "max_value": 255,
+      "default_value": 128
+    },
+    {
+      "name": "Sharpness",
+      "address": 50,
+      "description": "Sharpness - 锐度",
+      "data_type": "uint8",
+      "min_value": 0,
+      "max_value": 255,
+      "default_value": 64
+    }
+  ]
+}

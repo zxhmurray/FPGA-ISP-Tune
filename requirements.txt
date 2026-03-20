@@ -1,0 +1,12 @@
+# GUI Framework
+PyQt6>=6.0.0
+
+# Serial Communication
+pyserial>=3.5
+
+# Image Processing
+opencv-python>=4.5.0
+numpy>=1.21.0
+
+# Packaging (Optional - for distribution only)
+pyinstaller>=5.0
